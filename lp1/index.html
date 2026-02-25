@@ -96,48 +96,45 @@
 
     <!-- TOPBAR / HERO (Dobra 1) -->
     <header class="bg-brand-dark text-white relative overflow-hidden">
-        <div class="container mx-auto px-4 py-8 md:py-16 relative z-10">
+        <div
+            class="container mx-auto px-4 py-24 md:py-32 relative z-10 flex flex-col items-center justify-center text-center">
             <!-- Header Logo -->
             <div class="mb-12">
                 <img src="./assets/img/logo.png" alt="Biomed Podologia" width="180" height="auto"
                     class="invert brightness-0">
             </div>
 
-            <div class="flex flex-col md:flex-row items-center gap-12">
-                <!-- Content -->
-                <div class="md:w-1/2 space-y-6">
-                    <span
-                        class="inline-block bg-brand-primary text-xs font-bold px-4 py-1 rounded-full tracking-widest uppercase">
-                        Biomed Podologia em Campinas
-                    </span>
-                    <h1 class="text-4xl md:text-6xl font-bold leading-tight">
-                        Devolva a Saúde e o Conforto aos Seus Pés
-                    </h1>
-                    <h2 class="text-xl md:text-2xl text-gray-300 font-light max-w-xl">
-                        Especialistas em avaliação e tratamento de unhas encravadas, micoses, calosidades e cuidados
-                        para pés diabéticos.
-                    </h2>
-                    <div class="pt-4">
-                        <a href="https://api.whatsapp.com/send?phone=5519974082306&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20podol%C3%B3gica."
-                            class="btn-hover inline-block bg-brand-light text-brand-dark font-bold text-lg md:text-xl py-4 px-10 rounded-lg transition-all duration-300">
-                            Agendar Minha Avaliação Agora
-                        </a>
-                    </div>
+            <!-- Content -->
+            <div class="max-w-4xl space-y-8">
+                <span
+                    class="inline-block bg-brand-primary text-xs font-bold px-4 py-1 rounded-full tracking-widest uppercase">
+                    Biomed Podologia em Campinas
+                </span>
+
+                <!-- Trust Signals (Stars) -->
+                <div class="flex justify-center text-yellow-400 text-xl gap-1">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                 </div>
 
-                <!-- Image Placeholder -->
-                <div class="md:w-1/2 relative">
-                    <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-brand-primary/20 bg-gray-800">
-                        <img src="./assets/img/hero-podologia.webp"
-                            alt="Tratamento especializado em Podologia na Biomed" width="600" height="450"
-                            fetchpriority="high" class="w-full h-auto object-cover opacity-80" id="hero-img">
-                    </div>
-                    <!-- Micro decorative elements -->
-                    <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-brand-cyan/20 rounded-full blur-3xl"></div>
-                    <div class="absolute -top-6 -left-6 w-32 h-32 bg-brand-teal/20 rounded-full blur-3xl"></div>
+                <h1 class="text-4xl md:text-7xl font-bold leading-tight">
+                    Devolva a Saúde e o Conforto aos Seus Pés
+                </h1>
+
+                <h2 class="text-xl md:text-2xl text-gray-300 font-light mx-auto max-w-2xl">
+                    Especialistas em avaliação e tratamento de unhas encravadas, micoses, calosidades e cuidados para
+                    pés
+                    diabéticos.
+                </h2>
+
+                <div class="pt-6">
+                    <a href="https://api.whatsapp.com/send?phone=5519974082306&text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20podol%C3%B3gica."
+                        class="btn-hover inline-block bg-brand-light text-brand-dark font-bold text-lg md:text-2xl py-5 px-12 rounded-lg transition-all duration-300">
+                        Agendar Minha Avaliação Agora
+                    </a>
                 </div>
             </div>
         </div>
+
         <!-- Decorative pattern -->
         <div class="absolute inset-0 opacity-10 pointer-events-none">
             <svg class="h-full w-full" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
